@@ -9,7 +9,7 @@ from detectors import hand_detect, face_mesh, face_detect
 VIDEO_HEIGHT = 480
 VIDEO_WIDTH = 640
 
-MODES = {48: "empty", 49: "face_detect", 50: "face_mesh", 51: "hands"}
+MODES = {49: "face_detect", 50: "face_mesh", 51: "hands"}
 
 
 def add_text(img: np.ndarray, mode: str, proc_time: int) -> np.ndarray:
